@@ -3,8 +3,8 @@
 
 #include <QWidget>
 
-#include "app.h"
 #include "mvlog.h"
+
 #include "mvpublic.h"
 
 QT_BEGIN_NAMESPACE

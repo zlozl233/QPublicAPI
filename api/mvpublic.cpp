@@ -173,7 +173,7 @@ void MVPublic::setFont()
 //    QFont font;
 //    font.setFamily("Microsoft Yahei");
 //    font.setPixelSize(14);
-    //    app.setFont(font);
+//    app.setFont(font);
 }
 
 void MVPublic::msleep(int msec)

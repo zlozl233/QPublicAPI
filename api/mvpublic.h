@@ -52,7 +52,8 @@
 
 /* [Commit]
  * 16.流水号生成
- * 17.非阻塞延迟函数，sleep() msleep()
+ * 17.非阻塞延迟函数 sleep() msleep()
+ * 18.阻塞延迟函数 delay()
  * Version:   V1.0.0.5
  * Date:      2021-04-15
  * Author:    zlozl
@@ -104,11 +105,11 @@ public:
     //设置字体
     static void setFont();
 
-    //设置延时,非阻塞,最大误差有1ms
+    //设置非阻塞延时 最大误差有1ms
     static void msleep(int msec);
     static void sleep(int sece);
 
-    //设置延时,阻塞ms
+    //设置延时,阻塞 ms
     static void delay(int msec);
 
     //设置系统时间
